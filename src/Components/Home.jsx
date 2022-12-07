@@ -425,10 +425,10 @@ export default function Home() {
                   w="50%"
                   mb={'-30vh'}
                 >
-                  <Text fontFamily={'Arapey'} color="white" fontSize={isShortThan450px ? "5vw" : '3vw'} align="end">
+                  <Text fontFamily={'Arapey'} color="white" fontSize={isShortThan450px ? "5vw" : '3vw'} align="end" mb={"3vh"} onClick={()=>navigate('/more-info')} _hover={{cursor: 'pointer'}}>
                     ¿Cómo llegar?
                   </Text>
-                  <Text fontFamily={'Arapey'} color="white" fontSize={isShortThan450px ? "5vw" : '3vw'} align="end">
+                  <Text fontFamily={'Arapey'} color="white" fontSize={isShortThan450px ? "5vw" : '3vw'} align="end" onClick={()=>navigate('/more-info')} _hover={{cursor: 'pointer'}}>
                     Más información
                   </Text>
                 </Flex>
@@ -788,10 +788,10 @@ export default function Home() {
                   w="40%"
                   mb={'-15vh'}
                 >
-                  <Text fontFamily={'Arapey'} color="white" fontSize={'1.7vw'}>
+                  <Text fontFamily={'Arapey'} color="white" fontSize={'1.7vw'} mb={"3vh"} onClick={()=>navigate('/more-info')} _hover={{cursor: 'pointer'}}> 
                     ¿Cómo llegar?
                   </Text>
-                  <Text fontFamily={'Arapey'} color="white" fontSize={'1.7vw'}>
+                  <Text fontFamily={'Arapey'} color="white" fontSize={'1.7vw'} onClick={()=>navigate('/more-info')} _hover={{cursor: 'pointer'}}>
                     Más información
                   </Text>
                 </Flex>
