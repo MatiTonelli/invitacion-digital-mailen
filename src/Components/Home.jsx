@@ -309,7 +309,7 @@ export default function Home() {
                 color="white"
                 fontFamily={'Arapey'}
                 _hover={{ backgroundColor: '#7d025d', cursor: 'pointer' }}
-                onClick={() => navigate('/mas-info')}
+                onClick={() => navigate('/more-info')}
               >
                 ¿CÓMO LLEGAR?
               </Button>
@@ -393,7 +393,7 @@ export default function Home() {
                     color="white"
                     fontFamily={'Arapey'}
                     _hover={{ backgroundColor: '#7d025d', cursor: 'pointer' }}
-                    onClick={() => navigate('/mas-info')}
+                    onClick={() => navigate('/more-info')}
                   >
                     + INFO
                   </Button>
