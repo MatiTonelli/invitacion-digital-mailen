@@ -196,7 +196,7 @@ export default function Home() {
                       >
                         <Text fontSize={isShortThan450px ? "6vw" : '5vw'} color={'white'}>{props.seconds}</Text>
                         <Text fontSize={'4vw'} color={'#8d028d'}>
-                          seg
+                          segs
                         </Text>
                       </Flex>
                     </Flex>
@@ -564,7 +564,7 @@ export default function Home() {
                       >
                         {props.seconds}
                         <Text fontSize={'2vw'} color={'#8d028d'}>
-                          seg
+                          segs
                         </Text>
                       </Flex>
                     </Flex>
